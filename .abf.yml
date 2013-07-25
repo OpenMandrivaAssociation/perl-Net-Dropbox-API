@@ -1,2 +1,4 @@
+removed_sources:
+  Net-Dropbox-API-1.7.tar.gz: 656a937955d420555bd42b4e4fb7c99df2a26e5c
 sources:
-  "Net-Dropbox-API-1.7.tar.gz": 656a937955d420555bd42b4e4fb7c99df2a26e5c
+  Net-Dropbox-API-1.9.tar.gz: c1c5ba827492e171cb65124b65ece4da2442ea84
