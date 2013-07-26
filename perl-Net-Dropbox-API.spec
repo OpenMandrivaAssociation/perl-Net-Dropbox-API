@@ -1,15 +1,15 @@
 %define upstream_name    Net-Dropbox-API
-%define upstream_version 1.7
+%define upstream_version 1.9
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.9
+Release:	1
 
 Summary:	A dropbox API interface
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/Net-Dropbox-API-1.9.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Data::Random)
@@ -51,4 +51,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Mon Dec 12 2011 Alexander Khrukin <akhrukin@mandriva.org> 1.700.0-1mdv2011.0
 + Revision: 740506
 - imported package perl-Net-Dropbox-API
+
 
