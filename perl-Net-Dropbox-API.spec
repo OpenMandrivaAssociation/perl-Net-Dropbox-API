@@ -1,14 +1,12 @@
 %define upstream_name    Net-Dropbox-API
-%define upstream_version 1.9
-
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.9
-Release:	3
+Version:	1.9
+Release:	4
 
 Summary:	A dropbox API interface
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
+Url:		https://metacpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Net/Net-Dropbox-API-1.9.tar.gz
 
 BuildRequires:	make
@@ -31,7 +29,7 @@ BuildArch:	noarch
 no description found
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
